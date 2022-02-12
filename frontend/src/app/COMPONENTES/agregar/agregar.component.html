@@ -1,0 +1,67 @@
+
+<div class="container">
+  <p>AGREGAR PERSONA</p>
+  <div class="row">
+      <div class="col-sm-6">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Cédula *</label>
+              <input [(ngModel)]="equipo.cedula" type="text" class="form-control" name="cedula" maxlength="10" required="true">
+            </div>
+            <div class="mb-3">
+                  <label class="form-label">Nombre *</label>
+                  <input [(ngModel)]="equipo.nombre" type="text" class="form-control" name="nombre" maxlength="50" required="true">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Apellidos *</label>
+                <input [(ngModel)]="equipo.apellidos" type="text" class="form-control" name="apellidos" maxlength="50" required="true">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Fecha de Nacimiento *</label>
+              <input [(ngModel)]="equipo.fechanacimiento" type="date" class="form-control" name="fechanacimiento" required="true">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Dirección *</label>
+              <input [(ngModel)]="equipo.direccion" type="text" class="form-control" name="direccion" maxlength="100" required="true">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Correo *</label>
+              <input [(ngModel)]="equipo.correo" type="text" class="form-control" name="correo" maxlength="80" required="true">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Telefono *</label>
+              <input [(ngModel)]="equipo.telefono" type="text" class="form-control" name="telefono" maxlength="10" required="true">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Estado de vacunación *</label>
+              <select  [(ngModel)]="equipo.estadovacunacion" name="estadovacunacion" class="form-control">
+                  <option selected>VACUNADO</option>
+                  <option>NO VACUNADO</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Fecha de vacunación *</label>
+              <input [(ngModel)]="equipo.fechavacunacion" type="date" class="form-control" name="fechavacunacion" required="true">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">TIPO DE VACUNACIÓN *</label>
+              <select  [(ngModel)]="equipo.tipovacuna" name="tipovacuna" class="form-control">
+                  <option selected>PFIZER</option>
+                  <option>SINOVAV</option>
+                  <option>ASTRAZENECA</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Número de dosis *</label>
+              <select  [(ngModel)]="equipo.numerodosis" name="numerodosis" class="form-control">
+                  <option selected>PRIMERA DOSIS</option>
+                  <option>SEGUNDA DOSIS</option>
+                  <option>TERCERA DOSIS</option>
+              </select>
+            </div>
+              <button (click)="agregar()" class="btn btn-primary">Agregar</button>
+          </form>
+      </div>
+  </div>
+</div>

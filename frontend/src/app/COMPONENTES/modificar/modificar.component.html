@@ -1,0 +1,22 @@
+
+<div class="container">
+    <p>MODOFICAR PERSONA</p>
+    <div class="row">
+        <div class="col-sm-6">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Nombres</label>
+                    <input [(ngModel)]="persona.nombre" type="text" class="form-control" name="nombre">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Apellidos</label>
+                  <input [(ngModel)]="persona.apellidos" type="text" class="form-control" name="apellidos">
+              </div>
+                <button (click)="modificar()" class="btn btn-primary">Guardar</button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
