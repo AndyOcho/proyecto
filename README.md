@@ -1,4 +1,5 @@
 ________________________________________________BACKEND__________________________
+
 👉 colocarse dentro de la carpeta backend
 
 👉 instala paquete json
@@ -28,6 +29,7 @@ ________________________________________________BACKEND_________________________
 ===> npm install mysql --save
 
 ________________________________________________FRONTEND__________________________
+
 👉 instalar angular si es queremos para todo el computador ir a system32 ejecutar comando
 
 ===> npm install -g typescript
