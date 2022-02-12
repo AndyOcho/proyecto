@@ -1,7 +1,7 @@
 //colocarse dentro de la carpeta backend
 
 //instala paquete json
-npm init -y
+===> npm init -y
 
 //para ejecutar cualquier archivo
 node index.js
