@@ -37,7 +37,7 @@ ng g c componentes/inicio
 
 
 
-EJECUCI�N
+EJECUCIÓN
 localhost:3000  npm run dev  // nodejs
 localhost:4200  ng serve --open   // angular
 
